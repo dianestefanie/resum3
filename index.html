@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diane Stefanie Delgado - Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .resume {
+      background: #fff;
+      width: 850px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .header img {
+      width: 150px;
+      height: 180px;
+      object-fit: cover;
+      border: 3px solid #ddd;
+    }
+
+    .header-info h1 {
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+
+    .header-info h1 span {
+      color: #000;
+      font-weight: normal;
+      display: block;
+    }
+
+    .header-info h2 {
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 5px;
+      color: #333;
+    }
+
+    /* Section Titles */
+    .section-title {
+      background: #222;
+      color: #fff;
+      padding: 6px 12px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 4px;
+      margin: 25px 0 15px;
+      display: inline-block;
+    }
+
+    /* About Me */
+    .about p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Education & Experience Timeline */
+    .timeline {
+      border-left: 2px solid #333;
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+
+    .timeline-item {
+      margin-bottom: 25px;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: "";
+      width: 12px;
+      height: 12px;
+      background: #333;
+      border-radius: 50%;
+      position: absolute;
+      left: -27px;
+      top: 5px;
+    }
+
+    .timeline-item h4 {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .timeline-item span {
+      font-size: 13px;
+      color: #777;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .timeline-item ul {
+      margin-left: 20px;
+      list-style: disc;
+    }
+
+    .timeline-item ul li {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    /* Contact Section */
+    .contact-info {
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+      font-size: 14px;
+      margin: 6px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Skills */
+    .skills ul {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    .skills li {
+      margin-bottom: 12px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .dots {
+      margin-top: 5px;
+    }
+
+    .dot {
+      height: 10px;
+      width: 10px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .dot.filled {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+
+    <!-- Header -->
+    <div class="header">
+      <img src="c:\Users\NEDA\Downloads\b6f6eccb-ab49-4550-8f3f-40da3ee43d22.jpg" alt="Profile Picture">
+      <div class="header-info">
+        <h1>DIANE STEFANIE <span>DELGADO</span></h1>
+        <h2>STUDENT TEACHER</h2>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="about">
+      <div class="section-title">About Me</div>
+      <p>
+        Collaborative and communication with proven skills in working with teachers, parents and students. Demonstrated abilities in lesson planning, classroom management and individualized instruction.
+      </p>
+    </div>
+
+    <!-- Education -->
+    <div class="education">
+      <div class="section-title">Education</div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h4>University of S. Linois at Chicago</h4>
+          <span>Chicago, 2016</span>
+          <ul>
+            <li>Completed coursework in child development and teaching methodologies</li>
+            <li>Participated in tutoring program for under privileged students</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <h4>City Colleges of Chicago</h4>
+          <span>Chicago, 2016</span>
+          <ul>
+            <li>Specialized in Secondary Education</li>
+            <li>Completed student teaching practicing at John Adam High School</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact">
+      <div class="section-title">Contact</div>
+      <div class="contact-info">
+        <p>📍 164 General Satorre St. Poblacion 2A Imus Cavite</p>
+        <p>📞 0916 486 9331</p>
+        <p>✉️ dianestefanied@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="skills">
+      <div class="section-title">Skills</div>
+      <ul>
+        <li>Lesson Planning
+          <div class="dots">
+            <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+          </div>
+        </li>
+        <li>Classroom Management
+          <div class="dots">
+            <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+        </li>
+        <li>Communication
+          <div class="dots">
+            <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span>
+          </div>
+        </li>
+        <li>Student Assessment
+          <div class="dots">
+            <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="experience">
+      <div class="section-title">Work Experience</div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h4>Student Teacher</h4>
+          <ul>
+            <li>Assisted in the development and implementation of lesson plans</li>
+            <li>Provided individualized instruction to students</li>
+            <li>Maintained classroom disciplines and management</li>
+            <li>Collaborated with lead teachers and staff to improve student outcomes</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <h4>Tutor</h4>
+          <ul>
+            <li>Provided tutoring in English and Mathematics to students</li>
+            <li>Developed individualized learning plans</li>
+            <li>Monitored student progress</li>
+            <li>Provided feedback to parents and teachers</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
